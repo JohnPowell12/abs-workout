@@ -89,7 +89,7 @@ setInterval(function() {
 
 	$('.time-text').text(minutes + 'm ' + seconds + 's');
 
-	var excersize = excersizes[Math.floor(seconds / 30)];
+	var excersize = excersizes[Math.floor(secondsTicker / 30)];
 
 	$('.excersise-text').text(excersize.name);
 
